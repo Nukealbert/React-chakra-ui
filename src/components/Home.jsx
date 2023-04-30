@@ -1,4 +1,4 @@
-import { Box, Container, Heading, Image, Stack } from '@chakra-ui/react'
+import { Box, Container, Heading, Image, Stack,Text } from '@chakra-ui/react'
 import React from 'react';
 import {Carousel} from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
@@ -43,6 +43,22 @@ function Home() {
             >
 
                 <Image src={img5} h={['40','400']} filter={'hue-rotate(-130deg)'}  />
+                <Text p={['4','16']} letterSpacing={'widest'} lineHeight={'190%'} textAlign={'center'}>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Magnam eligendi quis voluptatum, molestias officiis 
+                     deleniti ex dolores quas ipsa delectus quos incidunt
+                      ullam numquam eum doloremque non quisquam dolore neque 
+                      quo quaerat totam recusandae qui nisi? Officiis unde,
+                       quis itaque at aliquam nesciunt ducimus corporis nihil,
+                        eligendi minima qui illo?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Magnam eligendi quis voluptatum, molestias officiis 
+                     deleniti ex dolores quas ipsa delectus quos incidunt
+                      ullam numquam eum doloremque non quisquam dolore neque 
+                      quo quaerat totam recusandae qui nisi? Officiis unde,
+                       quis itaque at aliquam nesciunt ducimus corporis nihil,
+                        eligendi minima qui illo?
+                </Text>
 
             </Stack>
 
