@@ -9,7 +9,7 @@ function Footer() {
 
         <Stack direction={['column','row']}>
             <VStack w={'full'} alignItems={'stretch'}>
-                <Heading size={'md'} textTransform={'uppercase'}>Subscribe to our Newsletter</Heading>
+                <Heading size={'md'} textTransform={'uppercase'} textAlign={['center',"left"]}>Subscribe to our Newsletter</Heading>
                 <HStack
                 borderBottom={'2px solid white'}
                 py={'2'}
@@ -37,8 +37,8 @@ function Footer() {
 
             <VStack  
             w={'full'} 
-            borderLeft={['none', '1px solid white']}
-            borderRight={['none', '1px solid white']}
+            borderLeft={['none', '0.5px solid white']}
+            borderRight={['none', '0.5px solid white']}
             >
                 <Heading textTransform={'uppercase'} textAlign={'center'}>
                     Zclimer
@@ -54,13 +54,13 @@ function Footer() {
                 <Heading size={'md'} textTransform={'uppercase'}> Social Media</Heading>
                 <HStack>
                     <Button variant={'link'} colorScheme='whiteAlpha'>
-                        <a href='www.google.com'><AiFillYoutube size={'20'} /></a>
+                        <a target={'blank'} href='https://www.google.com'><AiFillYoutube size={'20'} /></a>
                     </Button>
                     <Button variant={'link'} colorScheme='whiteAlpha'>
-                        <a href='www.google.com'><AiFillInstagram size={'20'} /></a>
+                        <a target={'blank'} href='https://www.google.com'><AiFillInstagram size={'20'} /></a>
                     </Button>
                     <Button variant={'link'} colorScheme='whiteAlpha'>
-                        <a href='www.google.com'><AiFillLinkedin size={'20'} /></a>
+                        <a target={'blank'} href='https://www.google.com'><AiFillLinkedin size={'20'} /></a>
                     </Button>
                 </HStack>
                 

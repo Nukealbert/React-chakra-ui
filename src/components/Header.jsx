@@ -22,6 +22,7 @@ function Header() {
         <>
             <Button onClick={onOpen} pos={'fixed'}
                 top={'4px'}
+                zIndex={'overlay'}
                 left={'4px'}
                 colorScheme='purple'
                 p={'0'}

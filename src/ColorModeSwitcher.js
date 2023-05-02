@@ -10,6 +10,7 @@ import { FaMoon, FaSun } from 'react-icons/fa';
   return (
     <IconButton
       variant="ghost"
+      zIndex={'overlay'}
       color="current"
       pos={'fixed'}
       top={'4px'}
