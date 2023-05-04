@@ -26,7 +26,8 @@ function Upload() {
                                     height:"100%",
                                     marginLeft:"-18px",
                                     color:"purple",
-                                    backgroundColor:"white"
+                                    backgroundColor:"white",
+                                    cursor:"pointer"
                                 },
                             }}
                         />
