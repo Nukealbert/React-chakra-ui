@@ -12,7 +12,7 @@ function Login() {
         <form>
             <VStack
                 alignItems={'stretch'}
-                w={'96'}
+                w={['full','96']}
                 spacing={'8'}
                 m={'auto'}
                 my={'16'}
